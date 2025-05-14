@@ -2,10 +2,8 @@ package encryption;
 import java.util.Random;
 
 /**
- * Lab for reviewing array and String manipulation in Java and 
+ * Array and String manipulation in Java and 
  * an intro to utility classes and static features 
- * 
- * @author EECS2030
  *
  */
 public class Encryption {

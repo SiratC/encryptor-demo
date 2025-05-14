@@ -16,5 +16,4 @@ javac -d out src/main/java/encryption/Encryption.java
 jar cfe encryptor.jar encryption.Encryption -C out .
 
 # run
-java -jar encryptor.jar encrypt -i secret.txt -o secret.enc
-java -jar encryptor.jar decrypt -i secret.enc -o plain.txt
+java -jar encryptor.jar encrypt -i secret.txt -o secret.bin

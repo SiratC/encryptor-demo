@@ -6,7 +6,7 @@ A simple CLI tool demonstrating RSA/AES encryption in Java.
 
 ```bash
 # With fat-jar
-javac -d out src/main/java/**/*.java
+javac -d out src/main/java/encrpytion/Encryption.java
 jar cfe encryptor.jar encryption.Encryption -C out .
 ```
 
